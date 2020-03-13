@@ -1,0 +1,16 @@
+/**Para poder mover todo el cuadro de iniciar sesión**/
+.inicio_sesion{
+  position: absolute; /*Para que se quede tal y como está**/
+  top: 30%;
+  left: 60%;
+}
+
+
+.inicio_sesion header{
+  font-family: serif;
+}
+
+.inicio_sesion nav input{
+  width: 250px;
+  height: 20px;
+}

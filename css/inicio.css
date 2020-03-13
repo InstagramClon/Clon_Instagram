@@ -1,0 +1,20 @@
+.buscador{
+  display: flex;
+  background: white;
+  border-bottom: 1px solid;
+}
+
+.buscador h3{
+  margin-left: 200px;
+}
+.buscador #btnbuscar{
+  margin-left: 200px;
+  height: 20px;
+  margin-top: 20px;
+}
+
+
+.buscador span{
+  margin-top: 20px;
+  margin-left: 20px;
+}
