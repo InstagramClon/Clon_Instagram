@@ -5,38 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/styles.css">
-  <title>Instagram</title>
+  <!-- Agrege el icono -->
+  <link rel="icon" href="imagenes/computadora.ico">
+
+  <title>Iniciar sesión - Instagram</title>
+
 </head>
+
 <body>
-  <!--Ingresando imagen principal de los telefonos-->
-  <div class="imagen_principal">
-  <img src="imagenes/iphones.jpg" alt="No se puede mostrar la imagen">
-
-
-  </div>
-  <!--Inicio de sesion o para registrarse-->
-  <div class="inicio_sesion">
-    <header>
-      <h3>Instagram</h3>
-    </header>
-
+    <!--Ingresando imagen principal de los telefonos-->
+    <div class = "principal-c-div__header">
+        Instagram
+        <div class= "imagen_principal">
+            <img src="imagenes/computadora.ico" alt="Logo">
+        </div>
+    </div>
+<!--Inicio de sesion o para registrarse-->
+    <div class="inicio_sesion">
     <nav>
-      <input type="text" placeholder="Telefono, usuario o correo electronico"  maxlength="30" id="usuario" required>
-      <br><br>
-      <input type="password" placeholder="contraseña"  maxlength="30" id="contraseña" required>
-      <br><br>
-      <input type="button" value="Iniciar Sesion" id="login">
+        <input type="text" placeholder="Telefono, usuario o correo electronico"  maxlength="30" required>
+        <br><br>
+        <input type="password" placeholder="contraseña"  maxlength="30" required>
+        <br><br>
+        <input type="button" value="Iniciar Sesion" id="login">
+        <footer>
+            <h5>¿No tienes cuenta?</h5>
+            <a href="#">Registrate</a>
+        </footer>
     </nav>
+    </div>
 
-
-    <footer>
-      <h5>¿No tienes cuenta?</h5>
-      <a href="#">Registrate</a>
-    </footer>
-  </div>
-
-  <script src="js/inicio_sesion.js"></script>
-
-
+    <script src="js/inicio_sesion.js"></script>
 </body>
 </html>

@@ -1,16 +1,24 @@
-/**Para poder mover todo el cuadro de iniciar sesión**/
+@media screen and (max-width: 50px){
 .inicio_sesion{
-  position: absolute; /*Para que se quede tal y como está**/
-  top: 30%;
-  left: 60%;
+    display: flex;
+    background-color: whitesmoke;
+    font-size: 1.5vw;
+    padding: 16px;
+    width: 180px;
+    height: 220px;
+    margin: 16px;
+    position: relative;
+    left: 550px;
+}
 }
 
-
-.inicio_sesion header{
-  font-family: serif;
+.principal-c-div__header{
+    color: blue;
+    font-size: 6vw;
+    background-color: whitesmoke;
 }
 
-.inicio_sesion nav input{
-  width: 250px;
-  height: 20px;
+body{
+	background-color: whitesmoke;
+	text-align: center;
 }
