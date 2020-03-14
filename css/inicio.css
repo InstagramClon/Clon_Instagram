@@ -18,3 +18,45 @@
   margin-top: 20px;
   margin-left: 20px;
 }
+
+.sugerencias{
+  background-color: white;
+  width: 300px;
+  margin-left: 850px;
+  margin-top: 150px;
+  border: 1px solid;
+}
+
+.imagenes img{
+  border-radius: 20px;
+  width: 50px;
+}
+
+
+.nombres{
+  position: absolute;
+  top: 18%;
+  left: 70px;
+  margin-left: 870px;
+  margin-top: 150px;
+}
+
+
+.nombres h6{
+  margin-top: 38px;
+}
+
+
+.seguimiento{
+  position: absolute;
+  top: 18%;
+  left: 180px;
+  margin-left: 870px;
+  margin-top: 150px;
+}
+
+
+.seguimiento h6{
+  margin-top: 38px;
+  color: blue;
+}
