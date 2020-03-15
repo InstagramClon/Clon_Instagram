@@ -1,6 +1,6 @@
 
 body{
-    background: url("./imagenes/fondo.jpg")
+    background: url("../imagenes/fondo.jpg")
     no-repeat fixed center center #ffffff;
     background-size: cover;
      font-size: 16px;
@@ -9,7 +9,7 @@ body{
 
   .Home{
     display: flex;
-    background: url("./imagenes/fondo.jpg")
+    background: url("../imagenes/fondo.jpg")
     no-repeat fixed center center #ffffff;
 
   }
@@ -77,7 +77,7 @@ background-color: #ffffff;
   display: flex;
 
   }
-  
+
 
   .Spt a{
     padding:0px 5px 0px 5px;
@@ -100,7 +100,7 @@ border: 0px;
     width: 40px;
     position: relative;
 
-    
+
     }
 
 
@@ -118,13 +118,13 @@ border: 0px;
     font-family: 'Open Sans', sans-serif;
     margin-top: 8px;
      }
-   
+
 
 
   .seguimiento{
     display: flex;
       /* margin-top: 5px; */
-    
+
       flex-direction: column;
       text-align: left;
     position: absolute;
@@ -135,11 +135,16 @@ border: 0px;
     padding:0px 5px 0px 5px;
   }
 
+.nombres h6{
+  margin-left: 10px;
+}
+
 .seguimiento h6{
   margin-top: 5px;
   color: blue;
   font-family:'Open Sans', sans-serif;
 }
+
 footer {
   width: 600px;
   height: 0px;
@@ -150,17 +155,25 @@ footer {
 }
 
 
-.fot a,.Encabezado a{
-  
-  padding:13px 5px 13px 5px ;  
+.fot a{
+
+  padding:13px 5px 13px 5px ;
   text-decoration: none;
-  color: #000;
+  color: blue;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+}
+
+.Encabezado a{
+  padding:13px 5px 13px 5px ;
+  text-decoration: none;
   font-family: 'Open Sans', sans-serif;
 }
 
+
 section .Publicaciones{
-   padding-top: 160px; 
-  width: 600px;  
+   padding-top: 160px;
+  width: 600px;
   padding: 150px 200px;
   /* height: 200px; */
 
@@ -199,7 +212,7 @@ section .imagenes,.post {
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  
+
 }
 
 .opciones{
@@ -208,15 +221,15 @@ section .imagenes,.post {
   height: 30px;
   padding-top: 10px;
   float: right;
- 
- } 
+
+ }
 
  .CotainerImg{
    display: flex;
   width: 50%;
   max-width: 800px;
   height: 620px;
-  
+
   /* display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -230,20 +243,18 @@ section .imagenes,.post {
   width: 600px;
   height: 600px;
   padding: 200px ;
-  
+
   padding: 0%;
   margin: 0%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 100%;
-   
+  margin-left: 10px;
+
 }
 .pie_post .tools{
   display: flex;
   /* flex-wrap: wrap; */
-  flex-direction: row; 
-  
+  flex-direction: row;
+
 }
 .tools img{
   padding:5px 10px 5px 10px ;
@@ -258,4 +269,16 @@ section .imagenes,.post {
   align-self: baseline;
   position: relative;
   align-content: flex-end;
+}
+
+.Count{
+  margin-left: 10px;
+}
+
+.Pdescript{
+  margin-left: 10px;
+}
+
+.pie_post nav{
+  margin-left: 10px;
 }
