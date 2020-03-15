@@ -1,122 +1,199 @@
 
 body{
-  background: url("../imagenes/fondo.jpg")  
-  no-repeat fixed center center #ffffff;
-  background-size: cover;
-   font-size: 16px; 
-  
-}
+    background: url("./imagenes/fondo.jpg")
+    no-repeat fixed center center #ffffff;
+    background-size: cover;
+     font-size: 16px;
+
+  }
+
+  .Home{
+    display: flex;
+    background: url("./imagenes/fondo.jpg")
+    no-repeat fixed center center #ffffff;
+
+  }
+  /* .buscador,.Fix,.sugerencias,.Publicaciones{
+    flex-grow: 1;
+    flex-basis: 100%;
+  } */
+  /* .explorer{
+    background-color: lightsalmon;
+  } */
+
+
+
+
 .explorer{
   width: 100%;
-  height: 50px;
+  height: 600px;
+  position: fixed;
 
 }
-header, .Fix{
+
+.explorer, .Fix,.Spt{
   position: fixed;
 }
-
 
 .buscador{
   box-shadow: 1px 1px 5px #000;
   display: flex;
-  background: white;
-  border-bottom: 1px solid;
- 
-}
-
-.buscador h3{
-  margin-left: 200px;
-  padding-top: 10px;
-}
-.buscador #btnbuscar{
-  margin-left: 200px;
-  height: 20px;
-  margin-top: 20px;
-}
-
-
-.buscador span{
-  padding:13px 25px 13px 25px ;  
-  margin-top: 10px;
-  margin-left: 20px;
-}
-
-
-.sugerencias{
   background-color: white;
-  width: 300px;
-  margin-left: 850px;
-  margin-top: 150px; 
+  border-bottom: 1px solid;
+
+}
+
+
+  .buscador .Refresh{
+    font-size:20px;
+    margin-left: 200px;
+    text-decoration: none;
+    padding: 13px 13px 13px 5px;
+    font-family: 'Lobster Two', cursive;
+    color: blueviolet;
+  }
+
+  .buscador #btnbuscar{
+    margin-left: 300px;
+    height: 20px;
+    margin-top: 10px;
+
+
+  }
+
+  .buscador span{
+    padding:10px 25px 15px 25px ;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .Fix{
+    position: fixed;
+background-color: #ffffff;
+    width: 300px;
+    height: 350px;
+    margin-left: 900px;
+  margin-top: 100px;
   border: 1px solid;
+  display: flex;
 
-}
+  }
+  
 
-.imagenes img{
-  border-radius: 20px;
-  width: 40px;
-}
+  .Spt a{
+    padding:0px 5px 0px 5px;
+   margin: 5px;
+    font-size: 18px;
+    text-align: left;
 
-
-.nombres{
+border: 0px;
+  }
+.imagenes{
   position: absolute;
-  top: 18%;
-  left: 70px;
-  margin-left: 870px;
-  margin-top: 150px;
+  top: 20%;
+
+  margin-right: 800px;
+  margin-top:10px;
+  padding:0px 5px 0px 5px;
 }
+  .imagenes img{
+    border-radius: 20px;
+    width: 40px;
+    position: relative;
+
+    
+    }
 
 
-.nombres h6{
-  margin-top: 38px;
-}
-.seguimiento{
-  position: absolute;
-  top: 18%;
-  left: 180px;
-  margin-left: 870px;
-  margin-top: 150px;
-}
+   nav .nombres{
+    position: absolute;
+    top: 15%;
+    left: 50px;
+    margin-left:0px;
+    margin-top: 20px;
+    padding:5px 5px 5px 5px;
 
+ }
+ .Spt{
+    padding:13px 20px 13px 20px ;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 8px;
+     }
+   
+
+
+  .seguimiento{
+    display: flex;
+      /* margin-top: 5px; */
+    
+      flex-direction: column;
+      text-align: left;
+    position: absolute;
+    top: 20%;
+    left: 150px;
+    margin-left:0px;
+    margin-top:10px;
+    padding:0px 5px 0px 5px;
+  }
 
 .seguimiento h6{
-  margin-top: 38px;
+  margin-top: 5px;
   color: blue;
+  font-family:'Open Sans', sans-serif;
 }
-
-
-/* Home----SECTION */
-
-
-
-section{
-  padding-top: 160px;
-  width: 800px;
-  height: 800px;
-  padding: 100px ;
-
-}
-/* .header{
+footer {
+  width: 600px;
+  height: 0px;
   display: flex;
-  background-color:#E9E9E6;
-  margin-right: 800px;
-  height: 200px;
-  padding: 120px;
-} */
+  /* flex-flow: ; */
+  text-align: left;
+  align-self:flex-end;
+}
 
-div {
+
+.fot a,.Encabezado a{
+  
+  padding:13px 5px 13px 5px ;  
+  text-decoration: none;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+section .Publicaciones{
+   padding-top: 160px; 
+  width: 600px;  
+  padding: 150px 200px;
+  /* height: 200px; */
+
+}
+.post{
   background-color:#ffffff;
-  margin: 20px 20px 20px 0px;
+  display: flex;
+  flex-direction: column;
+
+  min-width: 620px;
+  min-height: 620px;
+  max-height: 1080px;
+  max-width: 1080px;
+
+  flex-grow: 1;
+  flex-shrink: 0;
+
+}
+section .imagenes,.post {
+  background-color:#ffffff;
+  margin: 10px 10px 10px 10px;
 
 
 }
  .Encabezado {
-  background-color: lawngreen;
+  background-color:#ffffff;
+  margin: 10px 10px 10px 0px;
+  height: auto;
+  width: auto;
+ }
 
 
-  
-}
-/* la imagen del usuario y la de eleccion   */
-.im{
+ .im{
   /* position:absolute; */
   padding-top: 10px;
   width: 50px;
@@ -124,21 +201,61 @@ div {
   border-radius: 100%;
   
 }
+
 .opciones{
- background-position-x: right;
- width: 40px;
- height: 30px;
- padding-top: 10px;
- float: right;
+  background-position-x: right;
+  width: 40px;
+  height: 30px;
+  padding-top: 10px;
+  float: right;
+ 
+ } 
 
-} .img{
-  /* width: 620px;
-  height: 620px; */
-top: 80px;
-left: 10px;
-padding: width 103px;
-
+ .CotainerImg{
+   display: flex;
+  width: 50%;
+  max-width: 800px;
+  height: 620px;
+  
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; */
+  align-self: center;
 }
 
+.img{
+  padding-top: 160px;
+  width: 600px;
+  height: 600px;
+  padding: 200px ;
+  
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+   
+}
+.pie_post .tools{
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row; 
+  
+}
+.tools img{
+  padding:5px 10px 5px 10px ;
+  width: 30px;
+  height: 30px;
+  display: flex;
 
 
+}
+.tools .Guardar{
+  /* flex-direction: column-reverse; */
+  align-self: baseline;
+  position: relative;
+  align-content: flex-end;
+}
