@@ -1,11 +1,32 @@
+
+body{
+  background: url("../imagenes/fondo.jpg")  
+  no-repeat fixed center center #ffffff;
+  background-size: cover;
+   font-size: 16px; 
+  
+}
+.explorer{
+  width: 100%;
+  height: 50px;
+
+}
+header, .Fix{
+  position: fixed;
+}
+
+
 .buscador{
+  box-shadow: 1px 1px 5px #000;
   display: flex;
   background: white;
   border-bottom: 1px solid;
+ 
 }
 
 .buscador h3{
   margin-left: 200px;
+  padding-top: 10px;
 }
 .buscador #btnbuscar{
   margin-left: 200px;
@@ -15,21 +36,24 @@
 
 
 .buscador span{
-  margin-top: 20px;
+  padding:13px 25px 13px 25px ;  
+  margin-top: 10px;
   margin-left: 20px;
 }
+
 
 .sugerencias{
   background-color: white;
   width: 300px;
   margin-left: 850px;
-  margin-top: 150px;
+  margin-top: 150px; 
   border: 1px solid;
+
 }
 
 .imagenes img{
   border-radius: 20px;
-  width: 50px;
+  width: 40px;
 }
 
 
@@ -45,8 +69,6 @@
 .nombres h6{
   margin-top: 38px;
 }
-
-
 .seguimiento{
   position: absolute;
   top: 18%;
@@ -60,3 +82,63 @@
   margin-top: 38px;
   color: blue;
 }
+
+
+/* Home----SECTION */
+
+
+
+section{
+  padding-top: 160px;
+  width: 800px;
+  height: 800px;
+  padding: 100px ;
+
+}
+/* .header{
+  display: flex;
+  background-color:#E9E9E6;
+  margin-right: 800px;
+  height: 200px;
+  padding: 120px;
+} */
+
+div {
+  background-color:#ffffff;
+  margin: 20px 20px 20px 0px;
+
+
+}
+ .Encabezado {
+  background-color: lawngreen;
+
+
+  
+}
+/* la imagen del usuario y la de eleccion   */
+.im{
+  /* position:absolute; */
+  padding-top: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  
+}
+.opciones{
+ background-position-x: right;
+ width: 40px;
+ height: 30px;
+ padding-top: 10px;
+ float: right;
+
+} .img{
+  /* width: 620px;
+  height: 620px; */
+top: 80px;
+left: 10px;
+padding: width 103px;
+
+}
+
+
+
