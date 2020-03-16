@@ -1,0 +1,70 @@
+
+*{
+    margin: 0mm;
+    padding: 0mm;
+    box-sizing: border-box;
+    /* para que no se desborde el contenido de las cajas */
+    font-family: 'Lobster Two', cursive;
+}
+body{
+    background: linear-gradient(45deg,#5616cc,   #C754AA );
+    height: 100vh;
+}
+.Container{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    background: url('../imagenes/fondo.jpg')
+     fixed center center #684cacd3;
+    box-shadow: 0 15px 30px rgba(0,0, 0, .5);
+}
+.Container .Contenedor{
+    max-width: 600px;
+    text-align: center;
+
+}
+.Container .Contenedor h1{
+    font-size: 15vw;
+    color: rgba(0,0, 0, .5);
+    line-height: 1em;
+}
+.Container .Contenedor h3{
+    position: relative;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: slateblue;
+    background-color: #000000b7;
+    font-weight: 300;
+    padding: 10px 20px;
+    display:inline-block ;
+}
+.Container p{
+    color: indigo;
+    font-size: 1.5em;
+
+}
+.Container .Contenedor a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    background: none;
+    color:rgba(0, 0, 0, 0.493) ;
+    text-decoration: none;
+    margin-top: 25px;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+
+
+
