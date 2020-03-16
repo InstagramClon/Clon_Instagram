@@ -1,0 +1,129 @@
+body{
+  background: url('../imagenes/fondo.jpg') no-repeat fixed center center;
+  background-size: cover;
+}
+
+.Home{
+  display: flex;
+  background: url("../imagenes/fondo.jpg")
+  no-repeat fixed center center #ffffff;
+
+}
+/* .buscador,.Fix,.sugerencias,.Publicaciones{
+  flex-grow: 1;
+  flex-basis: 100%;
+} */
+/* .explorer{
+  background-color: lightsalmon;
+} */
+
+
+
+
+.explorer{
+width: 100%;
+height: 600px;
+position: fixed;
+
+}
+
+.buscador{
+box-shadow: 1px 1px 5px #000;
+display: flex;
+background-color: white;
+border-bottom: 1px solid;
+
+}
+
+
+.buscador .Refresh{
+  font-size:20px;
+  margin-left: 200px;
+  text-decoration: none;
+  padding: 13px 13px 13px 5px;
+  font-family: 'Lobster Two', cursive;
+  color: blueviolet;
+}
+
+.buscador #btnbuscar{
+  margin-left: 300px;
+  height: 20px;
+  margin-top: 10px;
+
+
+}
+
+.buscador span{
+  padding:10px 25px 15px 25px ;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+
+.buscador img{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border-bottom: 1px solid;
+  padding: 13px;
+}
+.configuracion{
+  display: flex;
+  margin-left: 550px;
+  margin-top: 50px;
+}
+
+.configuracion img{
+  margin-top: 10px;
+}
+.configuracion h4{
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.configuracion input{
+  margin-right: 30px;
+  height: 25px;
+  margin-top: 20px;
+}
+
+.configuracion h6{
+  margin-right: 40px;
+}
+
+
+.informacion{
+  display: flex;
+  margin-left: 500px;
+  margin-right: 460px;
+  border-bottom: 1px solid;
+}
+
+.informacion h5{
+  margin-right: 5px;
+}
+
+.informacion h6{
+  margin-right: 70px;
+}
+
+
+.publicaciones{
+  margin-left: 230px;
+  margin-top: 40px;
+
+}
+
+.pie_pagina{
+  display: flex;
+  margin-left: 150px;
+  margin-top:70px;
+}
+
+.pie_pagina a{
+  color: blue;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 10px;
+
+}
