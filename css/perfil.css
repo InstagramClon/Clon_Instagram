@@ -58,7 +58,11 @@ border-bottom: 1px solid;
   margin-top: 10px;
   margin-left: 20px;
 }
-
+.buscador a{
+  padding:10px 25px 15px 25px ;
+  margin-top: 10px;
+  margin-left: 20px;
+}
 
 .buscador img{
   width: 20px;
@@ -74,17 +78,18 @@ border-bottom: 1px solid;
 }
 
 .configuracion img{
-  margin-top: 10px;
+  margin-top: 30px;
 }
 .configuracion h4{
   margin-left: 20px;
   margin-right: 30px;
+  margin-top: 40px;
 }
 
 .configuracion input{
   margin-right: 30px;
   height: 25px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .configuracion h6{

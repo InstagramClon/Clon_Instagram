@@ -7,7 +7,10 @@ function ingresar(){
   var usuario = document.getElementById('usuario').value; //.value es para tomar el valor que se ingrese, trabajar con el.
   var pasword = document.getElementById('contraseña').value;
 
-  if(usuario=='boquer' && pasword=='12345'){
+  if(usuario=='fulanito' && pasword=='pizza44'){
     window.location.href = 'inicio.html';
+  }
+  else {
+    alert('Usuario no encontrado, favor de registrarse')
   }
 }

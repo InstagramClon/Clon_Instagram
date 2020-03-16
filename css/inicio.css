@@ -66,6 +66,12 @@ body{
     margin-top: 10px;
     margin-left: 20px;
   }
+
+  .buscador a{
+    padding:10px 25px 15px 25px ;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
   .Fix{
     position: fixed;
 background-color: #ffffff;

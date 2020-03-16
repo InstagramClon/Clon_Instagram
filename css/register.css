@@ -1,0 +1,19 @@
+
+.registerText {
+    display: flex;
+    background-image: url("../imagenes/form.png");
+    font-size: 24px;
+    font-style: normal;
+    padding: 8px;
+    width: 400px;
+    height: 600px;
+    margin: 0px  auto;
+    position: absolute;
+    left: 50px;
+}
+
+.parrafo {
+    width: 150px;
+    margin: 0px auto;
+    position: relative;
+}
